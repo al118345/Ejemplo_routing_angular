@@ -11,5 +11,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  almaceno_usuario () {
+    localStorage.setItem('currentUser', 'test');
+  }
 
 }
