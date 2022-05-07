@@ -15,4 +15,7 @@ export class HomeComponent implements OnInit {
     localStorage.setItem('currentUser', 'test');
   }
 
+  eliminar_credenciales() {
+    localStorage.setItem('currentUser', 'notest');
+  }
 }
