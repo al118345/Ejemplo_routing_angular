@@ -10,7 +10,6 @@ import {UsersGuard} from "./guard/users.guard";
 
 const routes: Routes = [
   { path: 'vista2', component: VistaTerceariaComponent,  canActivate: [UsersGuard] },
-
   { path: 'vista1/:id', component: VistaSecundariaComponent },
   { path: 'vista1', component: VistaSecundariaComponent },
   { path: 'home', component: HomeComponent },

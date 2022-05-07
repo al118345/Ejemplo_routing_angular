@@ -1,5 +1,8 @@
 # Ejemplo de enrutamiento con Angular.
 
+Proyecto realizado para el artículo https://1938.com.es/ejemplo-routing-angular
+
+#Información sobre Angular
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
 
 ## Development server
